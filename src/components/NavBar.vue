@@ -1,5 +1,5 @@
 <template>
-    <nav class="nav w-screen z-20 shadow-2xl bg-red-800 text-white" >
+    <nav class="nav w-screen z-20  text-white" :class="ishome ? '' : 'shadow-2xl bg-red-800' ">
        <div class="left">
            <span class="font-light text-3xl">
                My
@@ -8,14 +8,20 @@
        </div>
        <div class="right">
            <router-link class="link" to="/">Home</router-link>
-           <router-link class="link" to="/">Portoflio</router-link>
+           <router-link class="link" to="/portfolio">Portoflio</router-link>
        </div>
     </nav>
 </template>
 
 <script>
     export default {
-        name: 'NavBar'
+        name: 'NavBar',
+        props: {
+            ishome: {
+                type: Boolean,
+                default: true
+            },
+        },
     }
 </script>
 

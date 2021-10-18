@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import Github from 'vue-material-design-icons/Github';
-import Facebook from 'vue-material-design-icons/Facebook';
-import Twitter from 'vue-material-design-icons/Twitter';
+import Github from 'vue-material-design-icons/Github'
+import Facebook from 'vue-material-design-icons/Facebook'
+import Twitter from 'vue-material-design-icons/Twitter'
 
 
     export default {

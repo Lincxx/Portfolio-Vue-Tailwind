@@ -13,7 +13,7 @@
                 v-for="(hashtag, index) in project.hashtags" :key="index"
                 class="inline-block bg-gray-200 rounded-full px-3 py-1 my-1 text-sm font-semibold text-gray-700 mr-2"
                 >
-                {{ hashtag }}
+                #{{ hashtag }}
             </span>
         </div>
         
